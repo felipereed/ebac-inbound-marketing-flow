@@ -20,12 +20,7 @@
 - Evolução contínua: dividir o projeto em pequenas partes, testes, ciclos incrementais, revisão...
 - AIDA
 
-- \    Atenção   /
--  \  Interesse /
--   \  Desejo  /
--    \  Ação  /   
-
--       LEAD (e-mail)
+- Atenção → Interesse → Desejo → Ação → LEAD (e-mail)     
 
 ## Briefing
 - Criar uma campanha de inbound marketing para divulgar seus serviços de criação de sites, landing pages e e-mail marketing.
