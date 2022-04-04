@@ -1,0 +1,88 @@
+@import url(_variables.css);
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: var(--familia);
+  color: var(--azul);
+}
+
+p {
+  font-size: var(--tamanho-corpo);
+  line-height: 2rem;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.nav-container {
+  display: flex;
+  flex-flow: column;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.link-botao {
+  text-decoration: none;
+  font-size: var(--tamanho-botao);
+  background-color: var(--amarelo);
+  color: var(--branco);
+  margin: 1rem auto;
+  padding: 1rem 0;
+  min-width: 200px;
+  text-align: center;
+
+}
+
+.article-container {
+  margin: 0 10%;
+}
+
+.title-container {
+  margin: 3rem 0;
+}
+
+.title {
+  color: var(--amarelo);
+  font-size: var(--tamanho-titulo);
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.subtitle {
+  font-size: var(--tamanho-subtitulo);
+  margin-bottom: 1.5rem;
+}
+
+.text-container {
+  margin-bottom: 3rem;
+}
+
+.card {
+  border: 15px solid var(--amarelo-claro);
+  margin: 2rem 0;
+  min-height: 560px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 3rem 3rem 3rem;
+}
+
+.logo {
+  max-width: 77px;
+  max-height: 77px;
+}
+
