@@ -7,15 +7,23 @@
   <link rel="stylesheet" href="./assets/base/reset.css">
   <link rel="stylesheet" href="./assets/base/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
   <title>EBAC - Inbound Marketing Flow</title>
 </head>
 <body>
   <header>
     <div class="header-container">
-      <img src="./Images/mobile-banner1.png" alt="banner1">
-      <img src="./Images/mobile-banner2.png" alt="banner2">
+      <picture>
+        <source media="(min-width: 769px)" srcset="./Images/desktopbanner1.png">
+        <source media="(min-width: 426px)" srcset="./Images/tabletbanner1.png">
+        <img src="./Images/mobile-banner1.png" alt="banner">
+      </picture>
+      <picture>
+        <source media="(min-width: 769px)" srcset="./Images/desktopbanner2.png">
+        <source media="(min-width: 426px)" srcset="./Images/tabletbanner2.png">
+        <img src="./Images/mobile-banner2.png" alt="banner"">
+      </picture>
     </div>
   </header>
   <section>
@@ -23,14 +31,14 @@
       <div class="nav-container">
         <a href="#" class="link-botao">Home</a>
         <a href="#" class="link-botao">Sobre Nós</a>
-        <a href="#" class="link-botao">Tenho Interesse</a>
+        <a href="#form" class="link-botao">Tenho Interesse</a>
       </div>
     </nav>
     <article>
       <div class="article-container">
         <div class="title-container">
           <h1 class="title">Precisa criar ou atualizar seu website?</h1>
-          <h2 class="title">Nós temos a solução</h2>
+          <h2 class="title">Nós temos a solução.</h2>
         </div>
         <div class="text-container">
           <p>O bem mais valioso para empresas já estabelecidas, sejam elas grandes ou de pequeno porte, é o nome da marca. O efeito que deseja-se que seu empreendimento cause no público é que seja memorável, que reflita a atitude condizente com a cultura da empresa e atraia o cliente certo, causando uma boa impressão duradoura. O time da Reed Web Solutions domina várias áreas de conhecimento como design, comunicação, marketing, tecnologia, usabilidade e programação a fim de garantir que sua marca tenha um website poderoso e uma presença marcante nas redes sociais.</p>
@@ -49,7 +57,7 @@
           <div class="cards-containter">
             <div class="card">
               <div class="card-content">
-                <img src="./Images/design.png" alt="ilustração">
+                <img class="logo" src="./Images/design.png" alt="ilustração">
                 <h4 class="subtitle">Design Gráfico</h4>
                 <p>Nossa criatividade é onde nós brilhamos! Se você preci sa de um novo visual ou de uma equipe que possa criar novas diretrizes criativas para sua marca já existente, a RWS é a escolha certa. Temos experiência na concepção de todos os tipos de materiais de marketing, do impresso ao digital, do marketing interno ao marketing externo, e sempre de olho no seu público-alvo.</p>
               </div>
@@ -58,7 +66,7 @@
           <div class="cards-containter">
             <div class="card">
               <div class="card-content">
-                <img src="./Images/planejamento.png" alt="ilustração">
+                <img class="logo" src="./Images/planejamento.png" alt="ilustração">
                 <h4 class="subtitle">Planejamento</h4>
                 <p>Ajudamos empresas a desenvolver estratégias que tornam suas marcas fortes e garantimos que a comunicação em todos os canais de marketing seja coesa, focada em levar ao seu público-alvo as maneiras como seu produto ou serviço os beneficiam. Você poderá manter seus clientes engajados e informados através de comunicação direta por meio de boletins informativos otimizados. Desde o design, criação, criação de listas e entrega, a RWS combina harmoniosamente essas ferramentas com todas as suas ações de marketing.</p>
               </div>
@@ -67,7 +75,7 @@
           <div class="cards-containter">
             <div class="card">
               <div class="card-content">
-                <img src="./Images/website.png" alt="ilustração">
+                <img class="logo" src="./Images/website.png" alt="ilustração">
               <h4 class="subtitle">Websites</h4>
               <p>Uma das áreas de especialização da RWS é a construção de sites personalizados. Criamos páginas facéis de manter, otimizadas para dispositivos móveis e seguras. Você opta por ter controle total do seu site ou ter suporte de conteúdo contínuo. Entregamos uma experiência web impactante e visualmente atraente para o seu público, dando pleno suporte à sua identidade de marca e objetivos de marketing. Criamos sites para diversos setores, incluindo ONGs, saúde, manufatura, alimentação, varejo e muito mais.</p>
               </div>
@@ -76,7 +84,7 @@
           <div class="cards-containter">
             <div class="card">
               <div class="card-content">
-                <img src="./Images/redes.png" alt="ilustração">
+                <img class="logo" src="./Images/redes.png" alt="ilustração">
                 <h4 class="subtitle">Redes Sociais</h4>
                 <p>As mídias sociais estão aqui para ficar. Que maneira melhor de contar a história da sua marca do que deixá-la ganhar vida por meio dessas plataformas interativas que seus clientes já passam horas por dia? Essas ferramentas podem ajudá-lo a expandir e alcançar com mais eficiência suas metas de marketing. A RWS mantém-se atualizada com as últimas tendências sociais, nos aprofundamos em seu público-alvo e criamos planos de conteúdo estratégicos e visualmente impactantes, além de analisar o engajamento para garantir que sua marca se destaque.</p>
               </div>  
@@ -85,7 +93,7 @@
           <div class="cards-containter">
             <div class="card">
               <div class="card-content">
-                <img src="./Images/email.png" alt="ilustração">
+                <img class="logo" src="./Images/email.png" alt="ilustração">
                 <h4 class="subtitle">Marketing de E-mail</h4>
                 <p>O e-mail marketing é uma ferramenta comprovada e eficaz para alcançar seu público, expandir sua marca e promover seus produtos e serviços. A RWS cria campanhas estratégicas que ajudam sua marca a construir relacionamentos com os clientes, além de direcionar tráfego para seu site, canais de mídia social e outras plataformas digitais.</p>
               </div>
@@ -94,7 +102,20 @@
         </div>
       </div>
     </article>
+    <div class="article-container">
+      <div id="form" class="form-container">
+        <iframe src="https://www.cognitoforms.com/f/Z3QQxPUTc0atxtg_N-JPVg/1" style="border:0;width:100%;" height="521"></iframe>
+        <script src="https://www.cognitoforms.com/f/iframe.js"></script>
+      </div>
+    </div>
+    <article>
   </section>
-  <footer></footer>
+  <footer>
+    <div class="footer-container">
+      <p class="footer-text">&copy Reed Web Solutions. Todos os direitos reservados.</p>
+      <br>
+      <small>Desenvolvido por Felipe Reed, 2022.</small>
+    </div>
+  </footer>
 </body>
 </html> 

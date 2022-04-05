@@ -4,6 +4,7 @@
   --amarelo-claro: #FFCB70;
   --azul: #519CED;
   --familia: 'Roboto', sans-serif;
+  --familia-texto: 'Lato', sans-serif;
   --peso-titulo-destaque: 900;
   --peso-botao: 700;
   --tamanho-corpo: 1.8rem;
@@ -13,4 +14,6 @@
   --tamanho-titulo: 3rem;
   --tamanho-subtitulo: 2.2rem;
   --tamanho-texto: 1.8rem;
+  --tamanho-footer: 1.4rem;
+  --tamanho-desktop: 2.2rem;
 }
