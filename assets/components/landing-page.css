@@ -1,0 +1,24 @@
+.landing-page-banner {
+  min-height: 60vh;
+  min-width: 100vw;
+  background-color: var(--amarelo);
+  background-image: url("/Images/landing-page-banner.png");
+  background-repeat: no-repeat;
+}
+
+.landing-page-text-container {
+  min-height: 50rem;
+  background-color: var(--amarelo);
+  padding: 2rem 0;
+}
+
+.landing-page-text {
+  background-color: var(--branco);
+  margin: 0 25%;
+  padding: 3rem;
+}
+
+.landing-page-form-container {
+  
+  background-color: var(--amarelo);
+}
