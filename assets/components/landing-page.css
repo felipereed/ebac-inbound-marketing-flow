@@ -5,15 +5,30 @@
 }        
 body{
   font-family: 'Roboto', sans-serif;
-  background-image: url(/Images/landing-page-images/background.png);
-  background-repeat: no-repeat;
-  overflow-x: hidden;
+}
+
+.landing-page-body {
+  background-color: var(--amarelo);
+}
+
+.landing-page-text {
+  color: var(--branco);
+  font-size: var(--tamanho-destaque);
+  margin: 2em auto;
+  line-height: 1.2;
+  width: 70%;
 }
 
 .wrapper{
   position: relative;
-  height: 70vh;
-  overflow: hidden;
+  height: 100vh;
+  overflow: visible;
+  background-image: url(/Images/landing-page-images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:initial;
+  
+
 }
 header{
   padding: 50px 100px;
@@ -29,7 +44,6 @@ header ul li{
 header ul li a{
   color: var(--cinza);
   font-size: var(--tamanho-titulo);
-  text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 1px;
   transition: all ease 0.5s;
@@ -37,18 +51,7 @@ header ul li a{
 header ul li a:hover{
   color: #FBB031;
 }
-header ul li a.btn{
-  display: inline-block;
-  width: 280px;
-  height: 60px;
-  line-height: 60px;
-  background-color: var(--amarelo);
-  color: var(--branco);
-  text-align: center;
-  font-size: var(--tamanho-botao);
-  border-radius: 50px;
-  transition: all ease 0.5s;
-}
+
 header ul li a.btn:hover{
   background-color: #615c59;
 }

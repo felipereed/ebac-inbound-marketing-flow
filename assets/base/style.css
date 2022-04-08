@@ -25,6 +25,21 @@ img {
   width: 100%;
 }
 
+a.btn {
+  display: inline-block;
+  text-decoration: none;
+  width: 280px;
+  height: 60px;
+  line-height: 60px;
+  background-color: var(--amarelo);
+  color: var(--branco);
+  text-align: center;
+  font-size: var(--tamanho-botao);
+  border-radius: 50px;
+  transition: all ease 0.5s;
+  box-shadow: ;
+}
+
 .header-container {
   display: flex;
   flex-direction: column;
