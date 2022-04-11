@@ -37,7 +37,10 @@ a.btn {
   font-size: var(--tamanho-botao);
   border-radius: 50px;
   transition: all ease 0.5s;
-  box-shadow: ;
+}
+
+a.btn:hover{
+  background-color: #615c59;
 }
 
 .header-container {
@@ -51,7 +54,9 @@ a.btn {
   display: flex;
   flex-flow: column;
   flex-direction: column;
-  margin-bottom: 2rem;
+  justify-content: center;
+  flex-flow: wrap;
+  gap: 2rem;
 }
 
 .link-botao {
@@ -125,7 +130,14 @@ a.btn {
   text-align: center;
 }
 
-@media (min-width: 768px) {
+
+
+@media (max-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+  }
   .nav-container {
     display: flex;
     flex-flow: wrap;
@@ -137,6 +149,8 @@ a.btn {
   .article-container {
     margin: 1rem 1.5rem;
   }
+
+  
 
   .text-container {
     margin: 3rem 10%;
@@ -176,7 +190,7 @@ a.btn {
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1440px) {
   p {
     font-size: var(--tamanho-desktop);
   }
@@ -200,13 +214,13 @@ a.btn {
     flex-wrap: wrap;
     justify-content:space-evenly;
     max-width: 1200px;
-    margin: 0 auto;;
+    margin: 0 auto;
   }
 
   .form-container {
-    margin: 2rem 20%;
     max-width: 500px;
     margin: 0 auto;
+    border: 80px solid white;
   }
   .card {
     min-height: 800px;
