@@ -25,16 +25,17 @@ section {
   width: 70%;
 }
 
-/* background Image */
+/* background Image Desktop 1440 px*/
 
 .wrapper{
   position: relative;
-  height: 100vh;
+  height: 80vh;
   overflow: visible;
   background-image: url(/Images/landing-page-images/desktop-background-1440px.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment:initial;
+  margin-bottom: 0;
 }
 
 header{
@@ -97,8 +98,8 @@ header ul li{
 
 .img{
   position: relative;
-  width: 600px;
-  height: 500px;
+  width: 500px;
+  height: 600px;
   background: radial-gradient(620px, #FBB031, transparent 30%);
   margin-top: -50px;
 }
@@ -116,9 +117,9 @@ header ul li{
 
 /* Animation */
 @keyframes rotation {
-  /* 100%{
+  100%{
       transform: rotate(360deg);
-  } */
+  }
 }
 .social-icons img{
   position: absolute;
@@ -130,11 +131,11 @@ header ul li{
 }
 .social-icons img:nth-child(2){
   top: 25%;
-  right: 10%;
+  right: 15%;
 }
 .social-icons img:nth-child(3){
   top: 60%;
-  left: 75%;
+  left: 70%;
 }
 .social-icons img:nth-child(4){
   top: 25%;
@@ -258,8 +259,18 @@ header ul li{
     width: 70%;
   }
 }
-
+/* Mobile 425px */
 @media (max-width: 425px) {
+  .wrapper{
+    position: relative;
+    height: 110vh;
+    overflow: visible;
+    background-image: url(/Images/landing-page-images/mobile-background-425px.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:initial;
+    width: 100vw;
+  }
   .landing-page-text {
     font-size: var(--tamanho-texto);
   }
