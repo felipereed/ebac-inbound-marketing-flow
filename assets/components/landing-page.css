@@ -259,7 +259,7 @@ header ul li{
   }
   .wrapper{
     position: relative;
-    height: 100vh;
+    height: 120vh;
     overflow: visible;
     background-image: url(/Images/landing-page-images/mobile-background-425px.png);
     background-repeat: no-repeat;
