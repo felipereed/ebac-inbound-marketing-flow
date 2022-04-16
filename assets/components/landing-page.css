@@ -246,6 +246,9 @@ header ul li{
     line-height: 1.2;
     width: 70%;
   }
+  .form-container {
+    border: 10px solid white;
+  }
 }
 /* Mobile 425px */
 @media (max-width: 426px) {
@@ -312,4 +315,7 @@ header ul li{
     background: radial-gradient(420px, #FBB031, transparent 30%);
     margin-top: -199px;
   }  
+  .form-container {
+    border: 10px solid white;
+  }
 }
