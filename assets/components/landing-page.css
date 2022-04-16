@@ -305,4 +305,11 @@ header ul li{
     top: 60% ;
     right: 75%;
   }
+  .img {
+    position: relative;
+    width: 376px;
+    height: 585px;
+    background: radial-gradient(420px, #FBB031, transparent 30%);
+    margin-top: -199px;
+  }  
 }
