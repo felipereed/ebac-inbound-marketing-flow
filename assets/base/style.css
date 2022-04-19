@@ -170,7 +170,7 @@ a.btn:hover{
     margin: 0 auto;
   }
 }
-@media (max-width: 1440px) {
+@media (min-width: 1400px) {
   p {
     font-size: var(--tamanho-desktop);
   }
